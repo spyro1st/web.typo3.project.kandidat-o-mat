@@ -1,0 +1,27 @@
+nginx-configurations:
+  image: digitalpatrioten/nginx-configurations
+web:
+  image: digitalpatrioten/nginx-php:php7
+  ports:
+      - "80:80"
+      - "443:443"
+  volumes_from:
+    - nginx-configurations
+  volumes:
+    - /vagrant:/var/www
+    - /vagrant/etc/crontab/www-data:/var/spool/cron/crontabs/www-data:rw
+  links:
+    - db
+  environment:
+    - SITES_CONFIGS=newdocroot-typo3-62,newdocroot-ssl-typo3-62
+    - SMTP_HOST=smtp.mailgun.org
+    - SMTP_USER=postmaster@digitalpatrioten.com
+    - SMTP_PASSWORD=599e5bc15fcd387a4d5654198d26e0d3
+db:
+  image: mysql
+  ports:
+    - "3306:3306"
+  environment:
+    - MYSQL_ROOT_PASSWORD=password
+  volumes:
+    - ./etc/mysql/conf.d:/etc/mysql/conf.d
