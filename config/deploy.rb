@@ -1,14 +1,14 @@
 # config valid only for Capistrano 3.1
 lock '>=3.1.0'
 
-set :application, 'web.typo3.project.mtit'
-set :repo_url, 'git@bitbucket.org:digitalpatrioten/web.typo3.project.mtit.git'
+set :application, 'web.typo3.project.kandidat-o-mat'
+set :repo_url, 'git@bitbucket.org:digitalpatrioten/web.typo3.project.kandidat-o-mat.git'
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 
 # Default deploy_to directory is /var/www/my_app
-set :deploy_to, '/var/www/web.typo3.project.mtit'
+set :deploy_to, '/var/www/web.typo3.project.kandidat-o-mat'
 
 # Default value for :scm is :git
 # set :scm, :git

@@ -1,6 +1,6 @@
-server 'mtit.staging.dpag.it', port: 2202, user: 'www-data', roles: %w{web app db}
+server 'kom.staging.dpag.it', port: 22, user: 'www-data', roles: %w{web app db}
 set :branch, 'develop'
-set :deploy_to, '/var/www/web.typo3.project.mtit'
+set :deploy_to, '/var/www/web.typo3.project.kandidat-o-mat'
 # if you haven't already specified
 set :rails_env, "staging"
 SSHKit.config.command_map[:composer] = "php #{shared_path.join("composer.phar")}"

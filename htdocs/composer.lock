@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9d1d7cdf6c1d3321552f6911a684cbdd",
-    "content-hash": "52d2ac65bcce92433f8039a5b4e34847",
+    "hash": "1c5af890d2133d51e3c4b0fbb4b287ec",
+    "content-hash": "2277dd2031547e8aefe32f94215b7d14",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -64,7 +64,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:digitalpatrioten/web.typo3.extension.kom.git",
-                "reference": "1066a4351c64752d4cf10caaeaef6654d7b21465"
+                "reference": "6b3a551b0530ea14a3a7d06556c5819526fc1204"
             },
             "type": "typo3-cms-extension",
             "autoload": {
@@ -77,7 +77,7 @@
             ],
             "description": "Kandidat-O-Mat",
             "homepage": "https://www.digitalpatrioten.com/",
-            "time": "2017-05-04 08:46:49"
+            "time": "2017-05-04 18:03:46"
         },
         {
             "name": "digitalpatrioten/theme_kom",
@@ -85,7 +85,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:digitalpatrioten/web.typo3.extension.theme_kom.git",
-                "reference": "b1f2d70a987496a97b61a54e21dc7b0c3ee08c7e"
+                "reference": "5da1ecad9a521d7c67b9bec72b16c465377c0ab7"
             },
             "type": "typo3-cms-extension",
             "autoload": {
@@ -97,7 +97,7 @@
                 "GPL-2.0+"
             ],
             "description": "Kandidat-O-Mat TYPO3 CMS Theme",
-            "time": "2017-05-03 14:28:03"
+            "time": "2017-05-04 18:27:24"
         },
         {
             "name": "doctrine/instantiator",
@@ -754,55 +754,6 @@
                 "shim"
             ],
             "time": "2016-11-14 01:06:16"
-        },
-        {
-            "name": "typo3-ter/autoloader",
-            "version": "3.1.0",
-            "dist": {
-                "type": "t3x",
-                "url": "https://typo3.org/extensions/repository/download/autoloader/3.1.0/t3x/",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "php": ">= 7.0.0",
-                "typo3/cms-core": ">= 7.6.0, <= 8.7.99"
-            },
-            "replace": {
-                "autoloader": "self.version"
-            },
-            "type": "typo3-cms-extension",
-            "autoload": {
-                "psr-4": {
-                    "HDNET\\Autoloader\\": "Classes/",
-                    "WSDL\\": "Resources/Private/Contrib/vendor/piotrooo/wsdl-creator/src/WSDL/",
-                    "Ouzo\\": "Resources/Private/Contrib/vendor/letsdrink/ouzo-goodies/",
-                    "Zend\\Http\\": "Resources/Private/Contrib/vendor/zendframework/zend-http/src/",
-                    "Zend\\Server\\": "Resources/Private/Contrib/vendor/zendframework/zend-server/src/",
-                    "Zend\\Json\\": "Resources/Private/Contrib/vendor/zendframework/zend-json/src/",
-                    "Zend\\Uri\\": "Resources/Private/Contrib/vendor/zendframework/zend-uri/src/",
-                    "Zend\\Stdlib\\": "Resources/Private/Contrib/vendor/zendframework/zend-stdlib/src/",
-                    "Zend\\Loader\\": "Resources/Private/Contrib/vendor/zendframework/zend-loader/src/",
-                    "Zend\\EventManager\\": "Resources/Private/Contrib/vendor/zendframework/zend-eventmanager/src/",
-                    "Zend\\Escaper\\": "Resources/Private/Contrib/vendor/zendframework/zend-escaper/src/",
-                    "Zend\\Code\\": "Resources/Private/Contrib/vendor/zendframework/zend-code/src/",
-                    "Zend\\Validator\\": "Resources/Private/Contrib/vendor/zendframework/zend-validator/src/"
-                },
-                "exclude-from-classmap": [
-                    "/Resources/Private/Examples/",
-                    "/Resources/Private/Contrib/vendor/piotrooo/wsdl-creator/examples/"
-                ]
-            },
-            "authors": [
-                {
-                    "name": "Tim Lochmller",
-                    "email": "tim.lochmueller@hdnet.de",
-                    "company": "hdnet.de",
-                    "username": "spyker"
-                }
-            ],
-            "description": "Automatic components loading of ExtBase extensions to get more time for coffee in the company ;) This ext is not a PHP SPL autoloader or class loader - it is better! Loads CommandController, Xclass, Hooks, Aspects, FlexForms, Slots, TypoScript, TypeConverter, BackendLayouts and take care of createing needed templates, TCA configuration or translations at the right location.",
-            "time": "2017-04-27 13:25:02"
         },
         {
             "name": "typo3-ter/coreapi",
