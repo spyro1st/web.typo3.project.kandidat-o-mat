@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6992666d78d84655753eca137f4f9a5d",
-    "content-hash": "6e3a78e81ee3661bfc87e62877c45a3e",
+    "hash": "9d1d7cdf6c1d3321552f6911a684cbdd",
+    "content-hash": "52d2ac65bcce92433f8039a5b4e34847",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -57,6 +57,27 @@
                 "text"
             ],
             "time": "2014-05-19 10:25:02"
+        },
+        {
+            "name": "digitalpatrioten/kom",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:digitalpatrioten/web.typo3.extension.kom.git",
+                "reference": "1066a4351c64752d4cf10caaeaef6654d7b21465"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "DigitalPatrioten\\Kom\\": "Classes/"
+                }
+            },
+            "license": [
+                "GPL-2.0+"
+            ],
+            "description": "Kandidat-O-Mat",
+            "homepage": "https://www.digitalpatrioten.com/",
+            "time": "2017-05-04 08:46:49"
         },
         {
             "name": "digitalpatrioten/theme_kom",
@@ -3040,16 +3061,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "2.8.1",
+            "version": "2.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "d7cf0d894e8aa4c73712ee4a331cc1eaa37cdc7d"
+                "reference": "f7dfecbee89d68ab475a6c9e17d22bc9b69aed97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/d7cf0d894e8aa4c73712ee4a331cc1eaa37cdc7d",
-                "reference": "d7cf0d894e8aa4c73712ee4a331cc1eaa37cdc7d",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/f7dfecbee89d68ab475a6c9e17d22bc9b69aed97",
+                "reference": "f7dfecbee89d68ab475a6c9e17d22bc9b69aed97",
                 "shasum": ""
             },
             "require": {
@@ -3114,7 +3135,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2017-03-01 22:17:45"
+            "time": "2017-05-03 23:30:39"
         },
         {
             "name": "stecman/symfony-console-completion",
@@ -3797,6 +3818,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "digitalpatrioten/theme_kom": 20,
+        "digitalpatrioten/kom": 20,
         "typo3-ci/typo3cms": 20
     },
     "prefer-stable": false,
