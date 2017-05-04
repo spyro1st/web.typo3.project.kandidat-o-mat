@@ -1,7 +1,7 @@
 nginx-configurations:
   image: digitalpatrioten/nginx-configurations
 web:
-  image: digitalpatrioten/nginx-php:php7
+  image: digitalpatrioten/nginx-php:php56
   ports:
       - "80:80"
       - "443:443"
@@ -18,7 +18,7 @@ web:
     - SMTP_USER=postmaster@digitalpatrioten.com
     - SMTP_PASSWORD=599e5bc15fcd387a4d5654198d26e0d3
 db:
-  image: mysql
+  image: mysql:5.6
   ports:
     - "3306:3306"
   environment:

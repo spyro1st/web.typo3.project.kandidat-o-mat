@@ -7,6 +7,10 @@
 		{
 			"url": "git@bitbucket.org:digitalpatrioten/web.typo3.extension.theme_kom.git",
 			"type": "vcs"
+		},
+		{
+			"url": "git@bitbucket.org:digitalpatrioten/web.typo3.extension.kom.git",
+			"type": "vcs"
 		}
 	],
 	"require": {
@@ -16,7 +20,8 @@
 		"typo3-ter/autoloader": "3.1.0",
 		"typo3-ter/static-info-tables": "6.4.3",
 		"typo3-ter/nc-staticfilecache": "3.6.0",
-		"digitalpatrioten/theme_kom": "dev-develop"
+		"digitalpatrioten/theme_kom": "dev-develop",
+		"digitalpatrioten/kom": "dev-develop"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "^5.6",
