@@ -64,7 +64,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:digitalpatrioten/web.typo3.extension.kom.git",
-                "reference": "3f6f37e3b0948b95f7e2fdb3d67fa1b34db4cbed"
+                "reference": "f350bf9328b4a0f816ad753bfc90575a9ae2d541"
             },
             "type": "typo3-cms-extension",
             "autoload": {
@@ -77,7 +77,7 @@
             ],
             "description": "Kandidat-O-Mat",
             "homepage": "https://www.digitalpatrioten.com/",
-            "time": "2017-05-05 08:14:01"
+            "time": "2017-05-05 19:28:22"
         },
         {
             "name": "digitalpatrioten/theme_kom",
@@ -85,7 +85,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:digitalpatrioten/web.typo3.extension.theme_kom.git",
-                "reference": "3c40668a46ea961348c12e8d3280e9281e30ea30"
+                "reference": "ee20c593f0bb47991892ebc6cc8eb7f27cd8b50b"
             },
             "type": "typo3-cms-extension",
             "autoload": {
@@ -97,7 +97,7 @@
                 "GPL-2.0+"
             ],
             "description": "Kandidat-O-Mat TYPO3 CMS Theme",
-            "time": "2017-05-05 08:13:39"
+            "time": "2017-05-05 19:28:36"
         },
         {
             "name": "doctrine/instantiator",
