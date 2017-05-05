@@ -28,9 +28,9 @@ indent_style = tab
 indent_size = 4
 
 # LESS-Files
-[*.less]
-indent_style = tab
-indent_size = 4
+[*.scss]
+indent_style = space
+indent_size = 2
 
 # JS-Files
 [*.js]

@@ -277,7 +277,7 @@ return [
             'suggestions' => [],
         ],
         'kom' => [
-            'composerName' => 'kom',
+            'composerName' => 'digitalpatrioten/kom',
             'state' => 'active',
             'packagePath' => 'typo3conf/ext/kom/',
             'suggestions' => [],
@@ -310,12 +310,6 @@ return [
             'composerName' => 'typo3/cms-adodb',
             'state' => 'inactive',
             'packagePath' => 'typo3/sysext/adodb/',
-            'suggestions' => [],
-        ],
-        'autoloader' => [
-            'composerName' => 'lochmueller/autoloader',
-            'state' => 'inactive',
-            'packagePath' => 'typo3conf/ext/autoloader/',
             'suggestions' => [],
         ],
         'css_styled_content' => [
