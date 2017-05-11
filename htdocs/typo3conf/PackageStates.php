@@ -306,6 +306,12 @@ return [
             'packagePath' => 'typo3conf/ext/theme_kom/',
             'suggestions' => [],
         ],
+        'vhs' => [
+            'composerName' => 'fluidtypo3/vhs',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/vhs/',
+            'suggestions' => [],
+        ],
         'adodb' => [
             'composerName' => 'typo3/cms-adodb',
             'state' => 'inactive',
@@ -379,6 +385,12 @@ return [
             'suggestions' => [
                 'sys_action',
             ],
+        ],
+        'test' => [
+            'composerName' => 'test',
+            'state' => 'inactive',
+            'packagePath' => 'typo3conf/ext/test/',
+            'suggestions' => [],
         ],
     ],
     'version' => 4,

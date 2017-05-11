@@ -3,7 +3,7 @@ return [
     'BE' => [
         'debug' => true,
         'explicitADmode' => 'explicitAllow',
-        'installToolPassword' => '$P$CqOlj7bWhfPNKmd7v/ayJVeLxA9RtO.',
+        'installToolPassword' => '$P$CAYExbdCeK9HK1K5tYAsL2VlWetfUG0',
         'loginSecurityLevel' => 'rsa',
     ],
     'DB' => [
@@ -24,6 +24,7 @@ return [
             'static_info_tables' => 'a:1:{s:13:"enableManager";s:1:"0";}',
             'theme_kom' => 'a:0:{}',
             'version' => 'a:0:{}',
+            'vhs' => 'a:0:{}',
             'workspaces' => 'a:0:{}',
         ],
     ],

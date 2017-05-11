@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1c5af890d2133d51e3c4b0fbb4b287ec",
-    "content-hash": "2277dd2031547e8aefe32f94215b7d14",
+    "hash": "79cc912bcc261612a4ad11b67634fa01",
+    "content-hash": "1470e41e03c7b15a99baaad86472b291",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -64,7 +64,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:digitalpatrioten/web.typo3.extension.kom.git",
-                "reference": "e3556547b3031fc099ce69750e77a4395e22541d"
+                "reference": "fc3787027f4adb800405b54ca21fd32fb07f05cf"
             },
             "type": "typo3-cms-extension",
             "autoload": {
@@ -77,7 +77,7 @@
             ],
             "description": "Kandidat-O-Mat",
             "homepage": "https://www.digitalpatrioten.com/",
-            "time": "2017-05-10 13:08:53"
+            "time": "2017-05-11 08:59:56"
         },
         {
             "name": "digitalpatrioten/theme_kom",
@@ -901,6 +901,39 @@
             ],
             "description": "Data and API for countries, languages and currencies.",
             "time": "2017-04-11 21:03:28"
+        },
+        {
+            "name": "typo3-ter/vhs",
+            "version": "3.1.0",
+            "dist": {
+                "type": "t3x",
+                "url": "https://typo3.org/extensions/repository/download/vhs/3.1.0/t3x/",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "php": ">= 5.5.0, <= 7.0.99",
+                "typo3/cms-core": ">= 7.6.0, <= 8.4.99"
+            },
+            "replace": {
+                "vhs": "self.version"
+            },
+            "type": "typo3-cms-extension",
+            "autoload": {
+                "psr-4": {
+                    "FluidTYPO3\\Vhs\\": "Classes/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "FluidTYPO3 Team",
+                    "email": "claus@namelesscoder.net",
+                    "company": "",
+                    "username": "fluidtypo3"
+                }
+            ],
+            "description": "A collection of ViewHelpers to perform rendering tasks which are not natively supported by Fluid - for example: advanced formatters, math calculators, specialized conditions and Iterator/Array calculators and processors",
+            "time": "2016-10-18 15:46:15"
         },
         {
             "name": "typo3/class-alias-loader",

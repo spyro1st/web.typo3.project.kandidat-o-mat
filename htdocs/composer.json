@@ -19,6 +19,7 @@
 		"typo3-ter/realurl": "2.2.0",
 		"typo3-ter/static-info-tables": "6.4.3",
 		"typo3-ter/nc-staticfilecache": "3.6.0",
+		"typo3-ter/vhs": "3.1.0",
 		"digitalpatrioten/theme_kom": "dev-develop",
 		"digitalpatrioten/kom": "dev-develop"
 	},
