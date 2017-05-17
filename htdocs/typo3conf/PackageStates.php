@@ -386,12 +386,6 @@ return [
                 'sys_action',
             ],
         ],
-        'test' => [
-            'composerName' => 'test',
-            'state' => 'inactive',
-            'packagePath' => 'typo3conf/ext/test/',
-            'suggestions' => [],
-        ],
     ],
     'version' => 4,
 ];
