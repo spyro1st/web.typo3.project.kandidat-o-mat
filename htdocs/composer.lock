@@ -85,7 +85,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:digitalpatrioten/web.typo3.extension.theme_kom.git",
-                "reference": "1c38e25817405dc5183baf7233dc458ad2db17dc"
+                "reference": "f339bc414fa5474776117a0760858893074766a5"
             },
             "type": "typo3-cms-extension",
             "autoload": {
@@ -97,7 +97,7 @@
                 "GPL-2.0+"
             ],
             "description": "Kandidat-O-Mat TYPO3 CMS Theme",
-            "time": "2017-05-15 15:03:17"
+            "time": "2017-05-17 08:50:52"
         },
         {
             "name": "doctrine/instantiator",
