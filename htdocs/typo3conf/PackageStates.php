@@ -282,6 +282,12 @@ return [
             'packagePath' => 'typo3conf/ext/kom/',
             'suggestions' => [],
         ],
+        'metaseo' => [
+            'composerName' => 'mblaschke/metaseo',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/metaseo/',
+            'suggestions' => [],
+        ],
         'nc_staticfilecache' => [
             'composerName' => 'nc_staticfilecache',
             'state' => 'active',
