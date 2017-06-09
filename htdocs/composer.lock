@@ -64,7 +64,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:digitalpatrioten/web.typo3.extension.kom.git",
-                "reference": "6038dad6482344e73c2e64422087ddfeac3039b7"
+                "reference": "699ac255db6ef8d54e22ca3abb19f949174b1571"
             },
             "type": "typo3-cms-extension",
             "autoload": {
@@ -77,7 +77,7 @@
             ],
             "description": "Kandidat-O-Mat",
             "homepage": "https://www.digitalpatrioten.com/",
-            "time": "2017-06-09 13:13:56"
+            "time": "2017-06-09 14:51:10"
         },
         {
             "name": "digitalpatrioten/theme_kom",
@@ -698,16 +698,16 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.3.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4"
+                "reference": "dee1c8b1e040d7dec299e4133c8105538cb2e5c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/e79d363049d1c2128f133a2667e4f4190904f7f4",
-                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/dee1c8b1e040d7dec299e4133c8105538cb2e5c7",
+                "reference": "dee1c8b1e040d7dec299e4133c8105538cb2e5c7",
                 "shasum": ""
             },
             "require": {
@@ -753,7 +753,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2017-05-29 17:37:41"
         },
         {
             "name": "typo3-ter/coreapi",

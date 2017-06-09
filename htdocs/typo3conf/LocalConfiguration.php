@@ -29,6 +29,13 @@ return [
             'workspaces' => 'a:0:{}',
         ],
     ],
+    'EXTCONF' => [
+        'lang' => [
+            'availableLanguages' => [
+                'de',
+            ],
+        ],
+    ],
     'FE' => [
         'cHashIncludePageId' => true,
         'debug' => true,
