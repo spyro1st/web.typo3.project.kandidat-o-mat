@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ce0fa669604bf417457aeafe3fffb333",
-    "content-hash": "1acb0da7c39d7b484b53c490a9c74373",
+    "hash": "b2877ba7d490355089a15c0fbfc5416e",
+    "content-hash": "6979e5751de18d8cb818bd183440f672",
     "packages": [
         {
             "name": "cogpowered/finediff",
@@ -60,11 +60,11 @@
         },
         {
             "name": "digitalpatrioten/kom",
-            "version": "dev-develop",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:digitalpatrioten/web.typo3.extension.kom.git",
-                "reference": "28f36344f066740a5b4b2f36cd62020a9896fb63"
+                "reference": "4af1e6c1df3538fa97387e61af9aa48efc3c4829"
             },
             "type": "typo3-cms-extension",
             "autoload": {
@@ -81,11 +81,11 @@
         },
         {
             "name": "digitalpatrioten/theme_kom",
-            "version": "dev-develop",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:digitalpatrioten/web.typo3.extension.theme_kom.git",
-                "reference": "89604864e891e2a5ef9147f40dd1b6704fd7fabb"
+                "reference": "b858939bb090916e051cc5244103e05c63c527e9"
             },
             "type": "typo3-cms-extension",
             "autoload": {
@@ -3838,8 +3838,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "digitalpatrioten/theme_kom": 20,
-        "digitalpatrioten/kom": 20,
         "typo3-ci/typo3cms": 20
     },
     "prefer-stable": false,
