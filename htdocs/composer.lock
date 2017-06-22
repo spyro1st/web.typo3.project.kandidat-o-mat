@@ -64,7 +64,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:digitalpatrioten/web.typo3.extension.kom.git",
-                "reference": "3df5dfd6b38db83b25a288d338ff96fa062c46f4"
+                "reference": "28f36344f066740a5b4b2f36cd62020a9896fb63"
             },
             "type": "typo3-cms-extension",
             "autoload": {
@@ -77,7 +77,7 @@
             ],
             "description": "Kandidat-O-Mat",
             "homepage": "https://www.digitalpatrioten.com/",
-            "time": "2017-06-19 12:53:14"
+            "time": "2017-06-22 13:29:01"
         },
         {
             "name": "digitalpatrioten/theme_kom",
@@ -1028,16 +1028,16 @@
         },
         {
             "name": "typo3/cms",
-            "version": "7.6.18",
+            "version": "7.6.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3/TYPO3.CMS.git",
-                "reference": "9219e4fa9af5e4bd2ea1f208056cb396667cce45"
+                "reference": "7e72aa52ef9631112276820a20cf3e1a1f1d82db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/TYPO3/TYPO3.CMS/zipball/9219e4fa9af5e4bd2ea1f208056cb396667cce45",
-                "reference": "9219e4fa9af5e4bd2ea1f208056cb396667cce45",
+                "url": "https://api.github.com/repos/TYPO3/TYPO3.CMS/zipball/7e72aa52ef9631112276820a20cf3e1a1f1d82db",
+                "reference": "7e72aa52ef9631112276820a20cf3e1a1f1d82db",
                 "shasum": ""
             },
             "require": {
@@ -1223,7 +1223,7 @@
                 "extbase",
                 "typo3"
             ],
-            "time": "2017-04-18 17:27:37"
+            "time": "2017-06-20 12:43:54"
         },
         {
             "name": "typo3/cms-composer-installers",
