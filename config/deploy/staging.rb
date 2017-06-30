@@ -1,4 +1,4 @@
-server 'kom.staging.dpag.it', port: 22, user: 'www-data', roles: %w{web app db}
+server 'kom.staging.dpag.it', port: 2203, user: 'www-data', roles: %w{web app db}
 set :branch, 'develop'
 set :deploy_to, '/var/www/web.typo3.project.kandidat-o-mat'
 # if you haven't already specified
