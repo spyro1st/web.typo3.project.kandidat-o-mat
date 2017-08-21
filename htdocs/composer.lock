@@ -64,7 +64,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:digitalpatrioten/web.typo3.extension.kom.git",
-                "reference": "44d18988817cf593a169c0fab5dc17ff9925314f"
+                "reference": "b1bca3025a6e0c3aa423896feef2fbd70d741618"
             },
             "type": "typo3-cms-extension",
             "autoload": {
@@ -77,7 +77,7 @@
             ],
             "description": "Kandidat-O-Mat",
             "homepage": "https://www.digitalpatrioten.com/",
-            "time": "2017-08-21 08:32:32"
+            "time": "2017-08-21 08:35:44"
         },
         {
             "name": "digitalpatrioten/theme_kom",
