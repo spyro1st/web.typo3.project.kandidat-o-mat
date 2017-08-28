@@ -85,7 +85,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:digitalpatrioten/web.typo3.extension.theme_kom.git",
-                "reference": "7e808e62d571b107d765e8bc2e8f50f3a6ded965"
+                "reference": "e86dec129917b8caae75c6b2fbf685b2d8fd7cfa"
             },
             "type": "typo3-cms-extension",
             "autoload": {
@@ -97,7 +97,7 @@
                 "GPL-2.0+"
             ],
             "description": "Kandidat-O-Mat TYPO3 CMS Theme",
-            "time": "2017-06-22 13:54:30"
+            "time": "2017-08-28 15:19:28"
         },
         {
             "name": "doctrine/instantiator",
@@ -264,16 +264,16 @@
         },
         {
             "name": "pear/net_url2",
-            "version": "v2.2.1",
+            "version": "v2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/Net_URL2.git",
-                "reference": "43a87606daf52efe6685c92131be083143108e37"
+                "reference": "07fd055820dbf466ee3990abe96d0e40a8791f9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/Net_URL2/zipball/43a87606daf52efe6685c92131be083143108e37",
-                "reference": "43a87606daf52efe6685c92131be083143108e37",
+                "url": "https://api.github.com/repos/pear/Net_URL2/zipball/07fd055820dbf466ee3990abe96d0e40a8791f9d",
+                "reference": "07fd055820dbf466ee3990abe96d0e40a8791f9d",
                 "shasum": ""
             },
             "require": {
@@ -294,6 +294,9 @@
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
+            "include-path": [
+                "./"
+            ],
             "license": [
                 "BSD-3-Clause"
             ],
@@ -321,7 +324,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2016-04-18 22:24:01"
+            "time": "2017-08-25 06:16:11"
         },
         {
             "name": "pear/pear_exception",
