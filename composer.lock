@@ -63,7 +63,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:digitalpatrioten/web.typo3.extension.kom.git",
-                "reference": "7e0739cf52a27585aab4a709213d9f5901a506ce"
+                "reference": "20fab9cc905c3de3eabc2a788f1d6735a29cad28"
             },
             "type": "typo3-cms-extension",
             "autoload": {
@@ -76,7 +76,7 @@
             ],
             "description": "Kandidat-O-Mat",
             "homepage": "https://www.digitalpatrioten.com/",
-            "time": "2017-09-25T09:25:11+00:00"
+            "time": "2017-10-05T08:34:00+00:00"
         },
         {
             "name": "digitalpatrioten/theme_kom",
@@ -84,7 +84,7 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:digitalpatrioten/web.typo3.extension.theme_kom.git",
-                "reference": "f67f88666fbb9f5d011197be421d202d67497514"
+                "reference": "2e257cefe9226dfef1c6aab453eb020beea9417c"
             },
             "type": "typo3-cms-extension",
             "autoload": {
@@ -96,7 +96,7 @@
                 "GPL-2.0+"
             ],
             "description": "Kandidat-O-Mat TYPO3 CMS Theme",
-            "time": "2017-08-29T09:25:41+00:00"
+            "time": "2017-10-05T08:34:41+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -1412,16 +1412,16 @@
         },
         {
             "name": "codeception/codeception",
-            "version": "2.3.5",
+            "version": "2.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/Codeception.git",
-                "reference": "e807cd458eb9f7ae7464f33ad835a2f54aa73194"
+                "reference": "c3dd3b5d9e0b1ea6c2fcca52457736dc756716f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/e807cd458eb9f7ae7464f33ad835a2f54aa73194",
-                "reference": "e807cd458eb9f7ae7464f33ad835a2f54aa73194",
+                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/c3dd3b5d9e0b1ea6c2fcca52457736dc756716f8",
+                "reference": "c3dd3b5d9e0b1ea6c2fcca52457736dc756716f8",
                 "shasum": ""
             },
             "require": {
@@ -1436,7 +1436,7 @@
                 "phpunit/phpunit": ">4.8.20 <7.0",
                 "phpunit/phpunit-mock-objects": ">2.3 <5.0",
                 "sebastian/comparator": ">1.1 <3.0",
-                "sebastian/diff": "^1.4",
+                "sebastian/diff": ">=1.4 <3.0",
                 "stecman/symfony-console-completion": "^0.7.0",
                 "symfony/browser-kit": ">=2.7 <4.0",
                 "symfony/console": ">=2.7 <4.0",
@@ -1452,7 +1452,6 @@
                 "flow/jsonpath": "~0.2",
                 "league/factory-muffin": "^3.0",
                 "league/factory-muffin-faker": "^1.0",
-                "mongodb/mongodb": "^1.0",
                 "monolog/monolog": "~1.8",
                 "pda/pheanstalk": "~3.0",
                 "php-amqplib/php-amqplib": "~2.4",
@@ -1503,7 +1502,7 @@
                 "functional testing",
                 "unit testing"
             ],
-            "time": "2017-08-10T20:28:02+00:00"
+            "time": "2017-09-28T23:19:49+00:00"
         },
         {
             "name": "facebook/webdriver",
