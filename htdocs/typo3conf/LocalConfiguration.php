@@ -3,7 +3,7 @@ return [
     'BE' => [
         'debug' => true,
         'explicitADmode' => 'explicitAllow',
-        'installToolPassword' => '$P$CSdH6XvtNqnLWeIzIySVerc2JEbL7q/',
+        'installToolPassword' => '$P$CWQuGl01JXVKyXdoPvapYmYq0Vt8oR.',
         'loginSecurityLevel' => 'rsa',
     ],
     'DB' => [

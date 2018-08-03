@@ -12,7 +12,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "phusion/ubuntu-14.04-amd64"
   config.vm.hostname = 'kom-dev'
   config.vm.network "private_network", auto_network: true
-  config.hostmanager.aliases = %w(kom.dev www.kom.dev)
+  config.hostmanager.aliases = %w(kom.test www.kom.test)
   config.vm.synced_folder "./", "/vagrant", id: "vagrant-root",
       owner: "www-data",
       group: "www-data",
