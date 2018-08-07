@@ -3,7 +3,7 @@ return [
     'BE' => [
         'debug' => true,
         'explicitADmode' => 'explicitAllow',
-        'installToolPassword' => '$P$CWQuGl01JXVKyXdoPvapYmYq0Vt8oR.',
+        'installToolPassword' => '$P$CVTKUt5SfmblyNVroyNYfUr17qGebV/',
         'loginSecurityLevel' => 'rsa',
     ],
     'DB' => [
@@ -14,7 +14,9 @@ return [
     'EXT' => [
         'extConf' => [
             'coreapi' => 'a:0:{}',
+            'css_styled_content' => 'a:1:{s:32:"loadContentElementWizardTsConfig";s:1:"1";}',
             'extension_builder' => 'a:3:{s:15:"enableRoundtrip";s:1:"1";s:15:"backupExtension";s:1:"1";s:9:"backupDir";s:35:"uploads/tx_extensionbuilder/backups";}',
+            'gridelements' => 'a:3:{s:20:"additionalStylesheet";s:0:"";s:19:"nestingInListModule";s:1:"0";s:26:"overlayShortcutTranslation";s:1:"0";}',
             'kom' => 'a:0:{}',
             'linkvalidator' => 'a:0:{}',
             'metaseo' => 'a:4:{s:10:"pagingSize";s:0:"";s:10:"enableBeta";s:0:"";s:23:"enableIntegrationTTNews";s:1:"1";s:29:"sitemap_clearCachePossibility";s:0:"";}',
@@ -23,7 +25,9 @@ return [
             'rsaauth' => 'a:1:{s:18:"temporaryDirectory";s:0:"";}',
             'saltedpasswords' => 'a:2:{s:3:"BE.";a:4:{s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\PhpassSalt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}s:3:"FE.";a:5:{s:7:"enabled";i:1;s:21:"saltedPWHashingMethod";s:41:"TYPO3\\CMS\\Saltedpasswords\\Salt\\PhpassSalt";s:11:"forceSalted";i:0;s:15:"onlyAuthService";i:0;s:12:"updatePasswd";i:1;}}',
             'static_info_tables' => 'a:1:{s:13:"enableManager";s:1:"0";}',
+            'theme_bootstrap' => 'a:0:{}',
             'theme_kom' => 'a:0:{}',
+            'themes_gridelements' => 'a:0:{}',
             'version' => 'a:0:{}',
             'vhs' => 'a:0:{}',
             'workspaces' => 'a:0:{}',

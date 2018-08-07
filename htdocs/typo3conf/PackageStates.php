@@ -264,6 +264,48 @@ return [
             'packagePath' => 'typo3/sysext/viewpage/',
             'suggestions' => [],
         ],
+        'static_info_tables' => [
+            'composerName' => 'sjbr/static-info-tables',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/static_info_tables/',
+            'suggestions' => [],
+        ],
+        'themes' => [
+            'composerName' => 'typo3-themes/themes',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/themes/',
+            'suggestions' => [],
+        ],
+        'gridelements' => [
+            'composerName' => 'GridElementsTeam/Gridelements',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/gridelements/',
+            'suggestions' => [],
+        ],
+        'themes_gridelements' => [
+            'composerName' => 'typo3-themes/themes-gridelements',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/themes_gridelements/',
+            'suggestions' => [],
+        ],
+        'dyncss' => [
+            'composerName' => 'kaystrobach/dyncss',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/dyncss/',
+            'suggestions' => [],
+        ],
+        'dyncss_less' => [
+            'composerName' => 'kaystrobach/dyncss-less',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/dyncss_less/',
+            'suggestions' => [],
+        ],
+        'theme_bootstrap' => [
+            'composerName' => 'typo3-themes/theme-bootstrap',
+            'state' => 'active',
+            'packagePath' => 'typo3conf/ext/theme_bootstrap/',
+            'suggestions' => [],
+        ],
         'coreapi' => [
             'composerName' => 'etobi/coreapi',
             'state' => 'active',
@@ -298,12 +340,6 @@ return [
             'composerName' => 'dmitryd/typo3-realurl',
             'state' => 'active',
             'packagePath' => 'typo3conf/ext/realurl/',
-            'suggestions' => [],
-        ],
-        'static_info_tables' => [
-            'composerName' => 'sjbr/static-info-tables',
-            'state' => 'active',
-            'packagePath' => 'typo3conf/ext/static_info_tables/',
             'suggestions' => [],
         ],
         'theme_kom' => [
@@ -352,7 +388,9 @@ return [
             'composerName' => 'typo3/cms-indexed-search',
             'state' => 'inactive',
             'packagePath' => 'typo3/sysext/indexed_search/',
-            'suggestions' => [],
+            'suggestions' => [
+                'scheduler',
+            ],
         ],
         'indexed_search_mysql' => [
             'composerName' => 'typo3/cms-indexed-search-mysql',
